@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        
+        {% if site.description %}
+          <p>{{ site.description }}</p>
+        {% endif %}
+        <div>
+        {% for download in site.downloads %}
+            <a href="{{ download.file }}">{{ download.name }}</a> <a href="{{ download.file }}" download><i class="fas fa-download"></i></a> {% unless forloop.last %}| {% endunless %}
+        {% endfor %}
+        </div>
+        <div>
+          Social Links:
+        <ul class="social-links">
+          <li>
+            <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Email</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i> GitHub </a>        
+          </li>
+        </ul>
+    </div>
+      </header>
+      
+      <section>
+        {{ content }}
+      </section>
+      
+      <footer>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

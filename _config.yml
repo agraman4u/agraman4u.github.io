@@ -1,0 +1,58 @@
+# Site settings
+title: Aman Agrawal
+logo: /assets/images/logo.jpg
+email: agraman4u@gmail.com
+description: >-
+  Professional portfolio showcasing software development projects, 
+  skills, and professional experience.
+
+full_description: >-
+  This is the complete portfolio description about me
+
+permalink: pretty
+
+# Build settings
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# Social media & contact links
+github_username: agraman4u
+linkedin_username: ag-aman
+
+# SEO and analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+include:
+  - _pages
+  
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+  skills:
+    output: true
+    permalink: /:collection/:name
+  work_history:
+    output: true
+    permalink: /:collection/:name
+
+downloads:
+  - name: Resume
+    file: /assets/downloads/resume.pdf
+  - name: Portfolio
+    file: /assets/downloads/portfolio.pdf
