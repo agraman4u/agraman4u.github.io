@@ -18,21 +18,45 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Aman Agrawal
+email: agraman4u@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm a Software Engineer passionate about building intelligent, scalable systems that drive real-world impact.
+  With expertise spanning cloud applications and machine learning, 
+  I've helped shape how millions interact with Amazon's search platform and strengthened Microsoft's cloud security infrastructure. 
+  My work has consistently delivered tangible results - from driving $70M+ in revenue through enhanced search algorithms
+  to achieving 100% data accuracy in critical security systems.
+  When I'm not optimizing cloud architectures or fine-tuning ML models,
+  I'm exploring next-gen LLM applications and contributing to open-source projects.
+  Currently pursuing my Master's at Georgia Tech, 
+  I'm always eager to tackle challenging problems that sit at the intersection of innovation and business value.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://agraman4u.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-
+markdown: kramdown
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+# Navigation
+navigation:
+  - title: About
+    url: /sections/about
+  - title: Projects
+    url: /projects
+  - title: Experience
+    url: /sections/experience
+  - title: Skills
+    url: /sections/skills
+  - title: Blog
+    url: /blog
+# Social Links
+social_links:
+  github: agraman4u
+  linkedin: ag-aman
+  email: agraman4u@gmail.com
 
 # Exclude from processing.
 # The following items will not be processed, by default.
