@@ -3,11 +3,45 @@ title: Aman Agrawal
 logo: /assets/images/logo.jpg
 email: agraman4u@gmail.com
 description: >-
-  Professional portfolio showcasing software development projects, 
-  skills, and professional experience.
+  Going lazy on the code and precise on the development
 
 full_description: >-
-  This is the complete portfolio description about me
+  I'm a software engineer passionate about transforming complex technological 
+  challenges into elegant, impactful solutions. With experience spanning machine learning,
+  cloud technologies, and data-driven systems, I thrive on creating innovations that 
+  drive real business value.
+  
+  
+  At Microsoft, I have been working closely on the security front 
+  and actively tackling security vulnerabilities in the cloud. I led initiatives 
+  that optimized our database layer, achieving a 0% user identification error rate.
+  By rearchitecting processing workflows, I boosted data ingestion SLA by 25% 
+  and implemented platform-level user validation features that accelerated customer 
+  onboarding processes by 25%.
+  
+  
+  
+  At Amazon, I made substantial impacts in the Search Quality and Performance Advertising teams.
+  I architected a product clustering framework that reduced search sparsity by 100 basis points, 
+  directly driving $7M in revenue growth in Arabic markets. My work on the keyword search 
+  experimentation pipeline generated $62M in additional revenue through enhanced synonym matching. 
+  I developed a machine learning-powered real-time query ranking engine that improved search result 
+  accuracy by 350 basis points.
+  
+  
+  
+  My technical expertise spans multiple programming languages including
+  Python, Java, JavaScript, and Kotlin, with deep knowledge in big data technologies, 
+  cloud platforms like AWS and Azure, and machine learning techniques. 
+  My projects have consistently focused on optimization, 
+  from semantic query augmentation to AWS cost reduction strategies that 
+  delivered $2.28M in annual savings.
+  
+  
+  
+  I am currently pursuing a Master's in Computer Science from Georgia Tech and have a Bachelor's 
+   in Computer Science Engineering from KIIT University. My professional background demonstrates
+  an interest in technological innovation and system performance improvement.
 
 permalink: pretty
 
