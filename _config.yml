@@ -6,30 +6,32 @@ description: >-
   Going lazy on the code and precise on the development
 
 full_description: >-
-  I'm a software engineer passionate about transforming complex technological 
-  challenges into elegant, impactful solutions. With experience spanning machine learning,
-  cloud technologies, and data-driven systems, I thrive on creating innovations that 
-  drive real business value.
+  Passionate about transforming complex technological 
+  challenges into elegant, impactful solutionsm I have experience across machine learning,
+  cloud technologies, and data-driven systems, driving innovations with high business value.
   
   
   At Microsoft, I have been working closely on the security front 
   and actively tackling security vulnerabilities in the cloud. I led initiatives 
-  that optimized our database layer, achieving a 0% user identification error rate.
+  that optimized our database layer, achieving a negligible user identification error rate.
   By rearchitecting processing workflows, I boosted data ingestion SLA by 25% 
   and implemented platform-level user validation features that accelerated customer 
   onboarding processes by 25%.
   
   
-  
-  At Amazon, I made substantial impacts in the Search Quality and Performance Advertising teams.
-  I architected a product clustering framework that reduced search sparsity by 100 basis points, 
+  At Amazon, I worked in the Search Quality and Performance Advertising teams.
+  Under Serarch Quality, I architected a product clustering framework that reduced search sparsity by 100 basis points, 
   directly driving $7M in revenue growth in Arabic markets. My work on the keyword search 
   experimentation pipeline generated $62M in additional revenue through enhanced synonym matching. 
   I developed a machine learning-powered real-time query ranking engine that improved search result 
   accuracy by 350 basis points.
   
-  
-  
+
+  With Performance Advertising, our team owned the centralized data lake for Amazon advertising. 
+  I majorly worked on data quality side of things, adding validation and statistical features such as outlier detection, 
+  threshold based filters, ingestion quality and quantity pattern monitors, etc. 
+
+
   My technical expertise spans multiple programming languages including
   Python, Java, JavaScript, and Kotlin, with deep knowledge in big data technologies, 
   cloud platforms like AWS and Azure, and machine learning techniques. 
@@ -39,9 +41,9 @@ full_description: >-
   
   
   
-  I am currently pursuing a Master's in Computer Science from Georgia Tech and have a Bachelor's 
-   in Computer Science Engineering from KIIT University. My professional background demonstrates
-  an interest in technological innovation and system performance improvement.
+  I am currently pursuing a Master's in Computer Science from Georgia Tech Institute of Technology, Atlanta and have a Bachelor's 
+   in Computer Science Engineering from KIIT University, Odisha. My major curiosity lies around learning 
+   new technologies and how they could be used to make day to day lives of users better.
 
 permalink: pretty
 
@@ -53,7 +55,6 @@ markdown: kramdown
 github_username: agraman4u
 linkedin_username: ag-aman
 
-# SEO and analytics (optional)
 # google_analytics: UA-XXXXXXXXX-X
 
 # Plugins
