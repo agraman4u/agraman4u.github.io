@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Project Loki
-short_description: TODO
+short_description: Query and Product Similarity matching and clustering framework
 long_description: TODO
 ---
 

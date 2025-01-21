@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BuilderBob
-short_description: TODO
+short_description: Generic package build interface
 long_description: TODO
 ---
 

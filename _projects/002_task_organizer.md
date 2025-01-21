@@ -2,7 +2,7 @@
 layout: default
 title: LLM Based Task Organizer
 short_description: Fine-tuned LLMs for automated event planning and calendar management
-long_description: TODO
+long_description: Day to day calendar organization with relevant support for conflict detection, notification and resolution
 is_featured: true
 ---
 

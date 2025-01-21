@@ -1,7 +1,7 @@
 ---
 layout: default
 title: RelBERT
-short_description: TODO
+short_description: ML tooling to perform NDCG evaluation of sponsored products
 long_description: TODO
 ---
 

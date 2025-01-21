@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sematic Query Augmentation
-short_description: TODO
+short_description: Augment queries at scale to generate negative/false positive datsets to improve model precision
 long_description: TODO
 ---
 

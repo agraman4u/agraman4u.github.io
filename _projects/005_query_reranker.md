@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Realtime search query rerankers
-short_description: TODO
+short_description: Realtime ranker to suggest alternate/additional search queries
 long_description: TODO
 ---
 
