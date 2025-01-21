@@ -1,4 +1,4 @@
 ### Timeline
 {% for company in site.work_history %}
-[{{ company.companyName }} - *{{ company.startDate }} - {{ company.endDate }}*]({{ company.url }}) 
+<a href="{{ company.companyUrl }}" target="_blank">{{ company.companyName }}</a> - *{{ company.startDate }} - {{ company.endDate }}*
 {% endfor %}

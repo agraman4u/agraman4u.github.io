@@ -1,6 +1,7 @@
 ---
 layout: default
 companyName: Amazon
+companyUrl: https://www.amazon.com/
 startDate: 2019-06-10
 endDate: 2023-10-18
 roles:
